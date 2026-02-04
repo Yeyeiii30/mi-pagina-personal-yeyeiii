@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    background-image: url("../assets/img/FONDO1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    text-align: center;
+    color: white;
+}
+
+
+header{
+    background: rgba(0,0,0,0.7);
+    padding: 30px;
+}
+
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 15px;
+}
+
+nav ul li a{
+    color: rgb(151, 7, 7);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+
+main{
+    margin-top: 80px;
+    padding: 20px;
+}
+
+
+section{
+    background: rgba(211, 231, 255, 0.6);
+    margin: 30px auto;
+    padding: 30px;
+    width: 80%;
+    border-radius: 15px;
+}
+
+
+
+.botones{
+    margin-top: 50px;
+}
+
+
+.btn{
+    display: inline-block;
+    margin: 1px;
+    padding: 15px 40px;
+    background: #6488ffc0;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background: gray;
+}
+
+
+
+img{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+table, th, td{
+    border: 1px solid white;
+    padding: 10px;
+}
+
+th{
+    background: #6488ffc0;
+}
+
+
+
+input{
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type="submit"]{
+    background: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover{
+    background: gray;
+}
+
+
+
+footer{
+    margin-top: 270px;
+    background: rgba(64, 139, 182, 0);
+    padding: 15px;
+}
